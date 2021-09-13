@@ -37,13 +37,12 @@ def formula_1(x):
     return count
 
 values = [10, 100, 1000, 10000, 1000000]
-time.sleep(1)
 
-print("MI METODO")
+print("\nMETODO SUCRE\n")
 
 start_time = time.time()
 
 for v in values:
     print("LA CANTIDAD DE PRIMOS MENORES A ", {v}, " ES: ", {formula_1(v)})
 
-print("TARDA ", time.time() - start_time, " SEGUNDOS ")
+print("\nProcesado en: ", time.time() - start_time, " segundos\n")
