@@ -122,3 +122,5 @@ docs/_build/
 # PyBuilder
 target/
 
+*.layout
+*.depend
