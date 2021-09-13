@@ -11,9 +11,7 @@ static CLPrime_number_scz prime_number_scz;
 
 void CLPrime_number_scz::_init_uart(uint32_t baud)
 {
-    Serial.begin(baud);
-    fdev_setup_stream (&uartout, uart_putchar, NULL, _FDEV_SETUP_WRITE);
-    stdout = &uartout ;
+    init_uart(baud);
 }
 
 bool CLPrime_number_scz::_is_integer(double param)
