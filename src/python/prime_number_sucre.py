@@ -38,7 +38,7 @@ def formula_1(x):
 
 values = [10, 100, 1000, 10000, 1000000]
 
-print("\nMETODO SUCRE\n")
+print("\nMETODO SUCRE (PYTHON)\n")
 
 start_time = time.time()
 
