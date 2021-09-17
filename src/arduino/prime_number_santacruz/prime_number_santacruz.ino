@@ -67,7 +67,7 @@ void CLPrime_number_scz::setup(void)
  
     printf("\nMETODO SANTA CRUZ (ARDUINO)\n\n");
 
-    uint32_t values[5] = {10, 100, 1000, 10000, 1000000};
+    uint32_t values[5] = {10, 100, 1000, 10000, 100000};
 
     uint32_t time_now = millis();
     for (uint8_t nf = 0; nf < 5; nf++) {

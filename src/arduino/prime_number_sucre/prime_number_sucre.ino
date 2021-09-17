@@ -73,7 +73,7 @@ void setup(void)
 
     printf("\nMETODO SUCRE (ARDUINO)\n\n");
 
-    uint32_t values[5] = {10, 100, 1000, 10000, 1000000};
+    uint32_t values[5] = {10, 100, 1000, 10000, 100000};
 
     uint32_t time_now = millis();
     for (uint8_t i = 0; i < 5; i++) {
