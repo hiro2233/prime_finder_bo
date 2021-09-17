@@ -71,9 +71,9 @@ uint32_t CLPrime_number_scz::prime_scz(uint32_t nr)
 
 void CLPrime_number_scz::run(void)
 {
-    printf("\nMETODO SANTA CRUZ (NATIVE)\n\n");
+    printf("\nMETODO SANTA CRUZ (NATIVE C/C++)\n\n");
 
-    uint32_t values[5] = {10, 100, 1000, 10000, 1000000};
+    uint32_t values[5] = {10, 100, 1000, 10000, 10000000};
 
     double time_now = millis();
     for (uint8_t nf = 0; nf < 5; nf++) {

@@ -79,9 +79,9 @@ int main(int argc, char* const argv[])
 {
     gettimeofday(&state_tv.start_time, NULL);
 
-    printf("\nMETODO SUCRE (NATIVE)\n\n");
+    printf("\nMETODO SUCRE (NATIVE C/C++)\n\n");
 
-    uint32_t values[5] = {10, 100, 1000, 10000, 1000000};
+    uint32_t values[5] = {10, 100, 1000, 10000, 10000000};
 
     double time_now = millis();
     for (uint8_t i = 0; i < 5; i++) {
