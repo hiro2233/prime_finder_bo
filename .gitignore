@@ -127,3 +127,7 @@ target/
 
 bin
 obj
+
+*.class
+src/pascal/prime_number_santacruz/prime_number_santacruz
+src/pascal/prime_number_sucre/prime_number_sucre
