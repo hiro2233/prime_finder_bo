@@ -92,7 +92,7 @@ $ python src/python/prime_number_santacruz.py
 ```
 
 ----------------
-# Benmarking output comparison:
+# Benchmarking output comparison:
 
 Tested PC on CPU:
 
