@@ -11,8 +11,9 @@ There are two versions sources:
 
 The first (prime_number_sucre) is based on this document:
 https://drive.google.com/file/d/1p2nQXw7cAWlFlbc3VRl1N0aKxTDZrCju/view
+This one is written on Python on that document and source code is located on src/python/prime_number_sucre.py python file on this repository, source code was formatted with python coding style, some final output display description was modified and the 5th value on the group number values array was set to 10000000, originally setted to 100000.
 
-The second (prime_number_santacruz) is upto 8 (on some targets) times more fast than the first solution.
+The second is another algorithm soution (prime_number_santacruz) and is upto 8 (on some targets) times more fast than the first solution.
 
 NOTE: On Arduino versions the 5th number on the group is set to 100000, and set to 10000000 on the other targets.
 
