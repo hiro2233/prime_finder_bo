@@ -22,19 +22,6 @@ uint64_t millis()
 
 static CLPrime_number_scz prime_number_scz;
 
-bool CLPrime_number_scz::_is_integer(double param)
-{
-    double fractpart;
-    double intpart;
-
-    fractpart = modf(param , &intpart);
-    if (fractpart > 0.0f) {
-        return false;
-    } else {
-        return true;
-    }
-}
-
 bool CLPrime_number_scz::is_prime(uint32_t x)
 {
     if (x < 1) {

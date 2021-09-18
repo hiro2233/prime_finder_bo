@@ -17,5 +17,5 @@ public:
     bool is_prime(uint32_t x);
 
 private:
-    bool _is_integer(double param);
+
 };
