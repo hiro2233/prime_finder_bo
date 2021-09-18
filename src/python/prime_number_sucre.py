@@ -36,7 +36,7 @@ def formula_1(x):
             count += 1
     return count
 
-values = [10, 100, 1000, 10000, 1000000]
+values = [10, 100, 1000, 10000, 10000000]
 
 print("\nMETODO SUCRE (PYTHON)\n")
 

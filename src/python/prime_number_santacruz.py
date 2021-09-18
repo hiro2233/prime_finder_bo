@@ -28,7 +28,7 @@ def prime_scz(nr):
         cnt = 1
     return cnt
 
-numbers_to_find = [10, 100, 1000, 10000, 1000000]
+numbers_to_find = [10, 100, 1000, 10000, 10000000]
 
 print("\nMETODO SANTA CRUZ (PYTHON)\n")
 
