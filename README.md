@@ -1,6 +1,6 @@
 # Prime number finder
 
-A prime number finder libraries utility sets and snippets for Python, C/C++, Javascript, JAVA and Pascal.
+A prime number finder libraries utility sets and snippets written in Python, C/C++, Javascript, JAVA and Pascal.
 
 Target platform supported: Arduino, Browsers and GNU/Linux distributions, Windows isn't yet tested.
 
